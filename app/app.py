@@ -43,6 +43,11 @@ st.markdown("""
     .stCheckbox label, .stTextArea label, .stMultiSelect label {
         color: #111111;
     }
+            
+    .st-emotion-cache-k7vsyb h1, .st-emotion-cache-k7vsyb h2, .st-emotion-cache-k7vsyb h3, .st-emotion-cache-k7vsyb h4, .st-emotion-cache-k7vsyb h5, .st-emotion-cache-k7vsyb h6, .st-emotion-cache-k7vsyb span {
+        scroll-margin-top: 2rem;
+        color: #5242ff;
+    }   
 
     .stSidebar, .stSidebar * {
         color: #FFFFFF;
@@ -66,12 +71,7 @@ st.markdown("""
         color: #FFFFFF !important;
     }
 
-    .st-emotion-cache-k7vsyb h1, .st-emotion-cache-k7vsyb h2, .st-emotion-cache-k7vsyb h3, 
-    .st-emotion-cache-k7vsyb h4, .st-emotion-cache-k7vsyb h5, .st-emotion-cache-k7vsyb h6,
-    .st-emotion-cache-k7vsyb span {
-    scroll-margin-top: 2rem;
-    color: black;
-    }
+
     div[data-testid="stAlert"] {
         color: #111111;
     }
